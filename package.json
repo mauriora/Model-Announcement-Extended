@@ -1,0 +1,30 @@
+{
+  "name": "@mauriora/model-announcement-extended",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=14.16.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "build": "eslint . && tsc --build",
+    "rebuild": "eslint . && tsc --build --clean && tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "dependencies": {
+    "class-transformer": "^0.4.0",
+    "reflect-metadata": "^0.1.13",
+    "@mauriora/controller-sharepoint-list": "*"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "1.13.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "@typescript-eslint/typescript-estree": "^4.31.0",
+    "eslint": "^7.32.0"
+  },
+  "peerDependencies": {
+  }
+}
