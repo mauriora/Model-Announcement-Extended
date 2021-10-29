@@ -1,12 +1,13 @@
 {
   "name": "@mauriora/model-announcement-extended",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "sharepoint"
   ],
   "engines": {
     "node": ">=14.16.0"
