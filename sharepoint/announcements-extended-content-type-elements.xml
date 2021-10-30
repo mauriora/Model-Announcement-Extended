@@ -2,6 +2,7 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
 
     <Field ID="{bff1e6ac-eccc-40b1-a4ad-71bc76106816}" Name="Urgent" DisplayName="Urgent" Type="Boolean" Required="TRUE" Group="Mauri Ora" />
+    <Field ID="{2e8881da-0332-4ad9-a565-45b5b8b2702f}" Name="ReportOwner" StaticName="ReportOwner" Description="Owner of this document" DisplayName="Owner" Group="Reports" Type="User" />
 
     <ContentType ID="0x0104006F58E7674D4A4A1684013A2D3F258EE2"
             Name="Announcement Extended"
