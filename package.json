@@ -19,7 +19,7 @@
     "clean": "tsc --build --clean"
   },
   "dependencies": {
-    "@mauriora/controller-sharepoint-list": "0.1.1",
+    "@mauriora/controller-sharepoint-list": "0.1.2",
     "class-transformer": "^0.4.0",
     "reflect-metadata": "^0.1.13"
   },
