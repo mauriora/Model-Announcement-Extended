@@ -4,6 +4,9 @@ Shared model of the standard Announcement (title, body, expires) extended with t
 
 Contains the typescript model implementation and the sharepoint provisioning files.
 
+- [Sharepoint provisioning files](#sharepoint-provisioning-files)
+- [Typescript model](#typescript-model)
+
 ## Sharepoint provisioning files
 
 In [the sharepoint folder](./sharepoint) are the following provisioning files:
@@ -60,4 +63,3 @@ return <Stack>
     )}
 </Stack>;
 ```
-
