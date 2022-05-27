@@ -1,6 +1,6 @@
 {
   "name": "@mauriora/model-announcement-extended",
-  "version": "0.0.11",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +18,7 @@
     "clean": "tsc --build --clean"
   },
   "dependencies": {
-    "@mauriora/controller-sharepoint-list": "^0.1.10",
+    "@mauriora/controller-sharepoint-list": "^0.2.1",
     "class-transformer": "^0.4.0",
     "reflect-metadata": "^0.1.13"
   },
