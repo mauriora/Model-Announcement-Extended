@@ -4,8 +4,15 @@ Shared model of the standard Announcement (title, body, expires) extended with t
 
 Contains the typescript model implementation and the sharepoint provisioning files.
 
+[Please refer to the root workspace documentation as well](../../README.md)
+
+> This is part of the [hybrid repro MVC SharePoint example implementation](https://github.com/mauriora/reusable-hybrid-repo-mvc-spfx-examples)
+
+## Table of content
+
+- [Table of content](#table-of-content)
 - [Sharepoint provisioning files](#sharepoint-provisioning-files)
-- [Typescript model](#typescript-model)
+- [React example](#react-example)
 
 ## Sharepoint provisioning files
 
@@ -13,11 +20,13 @@ In [the sharepoint folder](./sharepoint) are the following provisioning files:
 
 - [acknowledged-announcements-elements.xml](./sharepoint/acknowledged-announcements-elements.xml) list instance of the acknowledged announcements list. Install on one site per tenant.
 - [acknowledged-announcements-schema.xml](./sharepoint/acknowledged-announcements-schema.xml) settings for the acknowledged announcements list.
-- [announcements-extended-content-type-elements.xml](./sharepoint/announcements-extended-content-type-elements.xml) content type of the extended announcemnts. Install on one site per tenant.
+- [announcements-extended-content-type-elements.xml](./sharepoint/announcements-extended-content-type-elements.xml) content type of the extended announcements. Install on one site per tenant.
 - [announcements-extended-list-elements.xml](./sharepoint/announcements-extended-list-elements.xml) list instance of the announcements list. Install on one site per tenant, **if you don't want to use and extend and existing list**.
 - [announcements-extended-schema.xml](./sharepoint/announcements-extended-schema.xml) settings for the announcements list.
 
-## Typescript model
+## React example
+
+This shows how to load all the announcements and display them as `MessageBars`.
 
 ```typescript
 import { AnnouncementExtended } from '@mauriora/model-announcement-extended';
