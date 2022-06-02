@@ -1,6 +1,6 @@
 {
   "name": "@mauriora/model-announcement-extended",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,13 +18,13 @@
     "clean": "tsc --build --clean"
   },
   "dependencies": {
-    "@mauriora/controller-sharepoint-list": "^0.2.4",
+    "@mauriora/controller-sharepoint-list": "^0.2.6",
     "class-transformer": "^0.5.1",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
     "@mauriora/eslint-config-ts": "0.0.1",
-    "@mauriora/package-tools": "^0.1.1",
+    "@mauriora/package-tools": "^0.1.2",
     "@types/webpack-env": "1.17.0",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
